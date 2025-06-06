@@ -1,0 +1,11 @@
+# virtual-env and OS cruft
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# editor / VCS junk
+.git
+.gitignore
+.vscode/
+.idea/
