@@ -9,6 +9,7 @@ from spaceship.routers import api, health
 def make_app(settings: Settings) -> FastAPI:
     print("Some realy cool changes!")
     print("For example, name printing")
+    print("One more modification")
 
     app = FastAPI(
         debug=settings.debug,
